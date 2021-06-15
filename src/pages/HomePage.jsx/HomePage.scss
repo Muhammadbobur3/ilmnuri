@@ -1,0 +1,455 @@
+.header {
+    position: relative;
+    padding-top: 17px;
+    padding-bottom: 45px;
+    background-image: url('../../assets/images/header-bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    // margin-right: auto;
+    vertical-align: middle;
+}
+
+.header__nav {
+    display: flex;
+    margin-left: auto;
+}
+
+.header__menu-btn {
+    background-color: transparent;
+    border: none;
+    margin-left: auto;
+    display: none;
+}
+
+.header__list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.header__item:not(:last-child) {
+    margin-right: 15px;
+}
+
+.header__link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 146%;
+    color: #FFFFFF;
+    text-decoration: none;
+
+    &--latin {
+        margin-right: 15px;
+    }
+
+    &--registration {
+        padding: 12px 16px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 5px;
+    }
+
+    &--login {
+        padding: 12px 35px;
+        background: #209778;
+        border-radius: 5px;
+    }
+}
+
+.header__scientists {
+    // padding: 130px 0;
+    padding-top: 130px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.header__text {
+    max-width: 1081px;
+    font-family: 'Mate SC';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 47px;
+    text-align: left;
+
+}
+
+.header__author {
+    max-width: 200px;
+    font-family: 'Mate SC';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+    opacity: 0.6;
+    text-align: left;
+    margin-right: auto;
+    // margin-left: auto;
+}
+
+.header__play-btns {
+    max-width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__play-btn {
+    padding: 7px;
+    background: rgba(255, 255, 255, 0.08);
+    border: none;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.header__play-img {
+    text-align: center;
+    align-items: center;
+}
+
+.header__mp {
+    background-color: transparent;
+}
+
+
+// <------------ LESSONS -------------> \\
+
+.lessons {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.lessons__list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lessons__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 53px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.lessons__box {
+    width: 280px;
+    padding: 24px 22px;
+    background-color: #fff;
+}
+
+.lessons__item-title {
+    font-family: 'Mate SC';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 146%;
+    color: #171717;
+    margin: 0;
+    margin-bottom: 6px;
+    text-align: left;
+}
+
+.lessons__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    color: #171717;
+    opacity: 0.5;
+    text-align: left;
+}
+
+.lessons__play-btn {
+    position: absolute;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    padding: 0;
+    top: 130px;
+}
+
+.lessons__play-btn > svg {
+    min-width: 40px;
+    min-height: 40px;
+    display: block;
+}
+
+
+// <------------ IMAMS -------------> \\
+
+
+.imams {
+    padding-top: 108px;
+    padding-bottom: 142px;
+    background-image: url("../../assets/images/patternr.png"),
+    url("../../assets/images/patternl.png"),
+    url("../../assets/images/mosque.png");
+    background-color:  #44CF9D;
+    background-repeat: no-repeat;
+    background-position: right center, left center, right bottom;
+    background-size: contain, contain, 991px 148px;
+}
+
+.imams__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.imams__item {
+    max-width: 400px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.imams__name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.imams__span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 146%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.imams__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin: 0;
+    margin-top: 25px;
+}
+
+
+// <------------ IMAMS -------------> \\
+
+
+
+.students {
+    padding-top: 41px;
+    padding-bottom: 32px;
+    background-color: #fff;
+}
+
+.students__list {
+    max-width: 900px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.students__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.students__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #697484;
+    opacity: 0.5;
+    text-align: left;
+    margin: 0;
+}
+
+.students__count {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 160%;
+    color: #222222;
+    text-align: left;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 990px) {
+    .imams {
+        background-image: url("../../assets/images/pattern-media.png"),
+        url("../../assets/images/mosque.png");
+        background-repeat: no-repeat;
+        background-size: contain, 991px 148px;
+        background-position: 0 0, center bottom;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .header__nav {
+        display: none;
+    }
+
+    .header__nav--open {
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 20;
+        display: block;
+        background: rgba(255, 255, 255, 0.8);
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.04);
+
+    }
+
+    .header__list {
+        width: 100%;
+        height: 100vh;
+        background-color: #44CF9D;
+        left: 0;
+        margin-right: auto;
+        padding-top: 90px;
+        padding-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__item {
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    .header__menu-btn {
+        display: block;
+        z-index: 50;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+
+    .header__scientists {
+        padding: 50px 0;
+    }
+
+    .header__text {
+        font-size: 20px;
+        line-height: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 605px) {
+    .lessons__list {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .students__list {
+        justify-content: center;
+    }
+
+    .students__item:not(:last-child) {
+        margin-bottom: 30px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .students__text {
+        text-align: center;
+    }
+
+    .students__count {
+        text-align: center;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .lessons {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .imams {
+        background-image: url("../../assets/images/pattern-media.png"),
+        url("../../assets/images/mosque.png");
+        background-repeat: repeat, no-repeat;
+        background-size: contain, 991px 148px;
+        background-position: 0 0, center bottom;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .students__list {
+        justify-content: space-between;
+    }
+
+    .students__item:nth-child(3n) {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .students__item:not(:last-child) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
